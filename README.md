@@ -38,7 +38,7 @@ This project documents my practice of essential data cleaning techniques on a ra
 - Capitalized texts as for specific columns using **Transform→Format→Capitalize Each Word**
 
 ### 3. 📊 Outlier Detection
-- Identified outliers in Age (1, 0, 150, 999), Booking Date and Customer Rating column.
+- Identified outliers in Age (1, 0, 150, 999), Travel Date (Travel date should not be earlier than Booking date) and Customer Rating (0, 6, 9, 10, -1; As per the company rules customer rating should be between 1-5) column.
 - Flagged suspicious values for review rather than blindly removing them
 
 ### 4. 🚩 Created Flag Columns
