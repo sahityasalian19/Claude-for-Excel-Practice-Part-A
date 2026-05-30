@@ -38,12 +38,12 @@ This project documents my practice of essential data cleaning techniques on a ra
 - Capitalized texts as for specific columns using **Transform→Format→Capitalize Each Word**
 
 ### 3. 📊 Outlier Detection
-- Identified outliers in Age (1, 0, 150, 999), Travel Date (Travel date should not be earlier than Booking date) and Customer Rating (0, 6, 9, 10, -1; As per the company rules customer rating should be between 1-5) column.
+- Identified outliers in Age (1, 0, 150, 999), Travel Date (Travel date should not be earlier than Booking date) and Customer Rating (0, 6, 9, 10, -1; As per the company rules customer rating should be between 1-5) columns, etc.
 - Flagged suspicious values for review rather than blindly removing them
 
 ### 4. 🚩 Created Flag Columns
 - Added new indicator columns to mark rows with missing values, outliers, or anomalies
-- Enabled downstream analysis to filter or handle flagged records appropriately
+- This makes it easy to filter out bad or suspicious rows later when building reports or Pivot Tables
 
 ### 5. 🏷️ Renaming Columns
 - Renamed cryptic or inconsistent column headers to clear, descriptive names
