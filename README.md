@@ -85,4 +85,3 @@ Claude provided clear, step-by-step instructions for each cleaning task — from
 
 ---
 
-*Built as a learning project | Guided by Claude AI*
